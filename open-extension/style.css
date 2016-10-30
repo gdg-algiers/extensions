@@ -1,0 +1,14 @@
+body{
+    width: 200px;
+    height: 70px;
+}
+#open{
+    background-color: green;
+    color:white;
+    
+}
+#close{
+    background-color: red;
+    color:white;
+    
+}

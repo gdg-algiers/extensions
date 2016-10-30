@@ -1,0 +1,15 @@
+{
+    "manifest_version":2,
+    "name":"extension1",
+    "version":"0.0.1",
+    "description":"gdg algiers first extension",
+    "browser_action":{
+        "default_title":"extension1 title",
+        "default_popup":"popup.html"
+    },
+    "icons":{
+        "28":"icon.png",
+        "64":"icon.png",
+        "128":"icon.png"
+    }
+}

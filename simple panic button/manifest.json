@@ -1,0 +1,20 @@
+{
+    "manifest_version":2,
+    "name":"simplePanicButton",
+    "version":"0.0.1",
+    "description":"a simple reimplimentation of panic button",
+    "browser_action":{
+        "default_title":"Don't Panic"
+    },
+    "icons":{
+        "28":"icon.png",
+        "64":"icon.png",
+        "128":"icon.png"
+    },
+    "background":{
+        "scripts":["background.js"]
+    },
+    "permissions":[
+          "tabs"
+    ]
+}
